@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         new Thread(() -> {
-            Log.e("Lambda expression","Project compiled hi");
+            Log.e("Lambda expression","Project compiled hi token");
         }).start();
     }
 }
